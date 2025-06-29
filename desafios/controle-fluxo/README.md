@@ -1,18 +1,35 @@
-## Getting Started
+# Desafio: Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Neste desafio, foi criado um algoritmo em Java que recebe dois números inteiros como entrada e realiza um controle de fluxo com base nesses valores.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+- O programa solicita ao usuário dois valores inteiros via `Scanner`: um valor inicial e um valor final.
+- Se o valor inicial for **menor que o valor final**, o algoritmo:
+  - Calcula a diferença entre os dois números;
+  - Realiza um loop (`for`) com base nessa diferença, imprimindo uma mensagem sequencial para cada número.
+- Se o valor inicial for **maior que o valor final**, é lançada uma **exceção personalizada** chamada `ParametrosInvalidosException`, com a seguinte mensagem:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+"Segundo parâmetro deve ser maior que o primeiro."
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Exemplo de execução
 
-## Dependency Management
+**Entrada:**
+Digite o primeiro número: 12
+Digite o segundo número: 30
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+**Saída:**
+Imprimindo número 1
+Imprimindo número 2
+...
+Imprimindo número 18
+
+
+## Funcionalidades utilizadas
+
+- 📥 `Scanner` para entrada de dados;
+- ✅ Método para validação dos parâmetros;
+- ⚠️ Classe de exceção customizada (`ParametrosInvalidosException`);
+- 🔄 Estrutura de repetição `for`;
+- 🧪 Blocos `try`, `catch` e `finally` para tratamento de exceções.
