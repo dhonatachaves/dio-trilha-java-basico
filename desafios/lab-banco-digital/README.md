@@ -1,18 +1,35 @@
-## Getting Started
+# Banco Digital - Projeto Simples em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Projeto básico de banco digital desenvolvido em Java, que simula operações bancárias em contas correntes e poupança, utilizando conceitos de programação orientada a objetos (POO) como encapsulamento, herança e polimorfismo.
 
-The workspace contains two folders by default, where:
+## Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Criação de clientes com ID único.
+- Criação de contas correntes e poupança para os clientes.
+- Operações básicas:
+  - Depósito
+  - Saque
+  - Transferência entre contas
+- Impressão de extrato bancário personalizado para cada tipo de conta.
+- Controle interno das contas e clientes cadastrados.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Tecnologias
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java 10 ou superior (para uso do método `Map.copyOf`)
 
-## Dependency Management
+## Como usar
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone o repositório ou copie o código fonte.
+2. Compile as classes.
+3. Execute a classe `Main` para testar as operações bancárias simuladas.
+4. Observe as operações e extratos impressos no console.
+
+## Estrutura do projeto
+
+- `Person` — representa o cliente do banco.
+- `Account` (classe abstrata) — base para as contas bancárias.
+- `CurrentAccount` — conta corrente com extrato personalizado.
+- `SavingsAccount` — conta poupança com extrato personalizado.
+- `Main` — classe com o método principal para testes.
