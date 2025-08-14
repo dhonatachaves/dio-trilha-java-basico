@@ -9,7 +9,7 @@ Este repositório contém os exercícios, projetos e desafios selecionados reali
 
 ### Projetos e desafios
 - **collections-java-api-2025**  
-  Exercícios e projetos sobre **Collections em Java (List, Set, Map)**, abordando:
+  Exercícios sobre **Collections em Java (List, Set, Map)**, abordando:
   - Operações básicas
   - Ordenação
   - Pesquisa
@@ -22,4 +22,46 @@ Este repositório contém os exercícios, projetos e desafios selecionados reali
   - `lab-banco-digital` – prática de POO e simulação de banco digital
   - `poo` – exercícios de Programação Orientada a Objetos  
 
+> ⚠️ Observação: este repositório **não contém todos os exercícios do bootcamp**, apenas os projetos e desafios selecionados que foram desenvolvidos até agora.
+
 ### Estrutura interna do projeto `collections-java-api-2025`
+
+- `.idea/`
+- `src/`
+  - `main/java/`
+    - `list/`
+      - `OperacoesBasicas`
+      - `Ordenacao`
+      - `Pesquisa`
+    - `map/`
+      - `OperacoesBasicas`
+      - `Ordenacao`
+      - `Pesquisa`
+    - `set/`
+      - `OperacoesBasicas`
+      - `Ordenacao`
+      - `Pesquisa`
+  - `CatalogoLivros.java`
+  - `Livro.java`
+  - `SomaNumeros.java`
+  - `Main.java`
+- `.gitignore`
+- `collections-java-api-2025.iml`
+
+---
+
+## 🎯 Objetivo
+
+O objetivo deste repositório é:
+- Consolidar os fundamentos de **Java**: sintaxe, POO, collections e manipulação de dados.
+- Criar **projetos práticos** para fixação do aprendizado.
+- Servir como referência para **estudos futuros** e apresentação de portfólio.
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/dio-trilha-java-basico.git
